@@ -3,14 +3,15 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Clients from './components/Clients'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <Navbar/>
       <Hero/>
+      <Clients/>
     </>
   )
 }
