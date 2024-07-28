@@ -20,7 +20,7 @@ const Clients = () => {
 
 
       <div className='w-full py-5 '>
-        <h1 className='text-center mx-auto text-dark-grey' style={{ maxWidth: '600px' }}>Manage your entire community in a single system</h1>
+        <h1 className='text-center mx-auto text-dark-grey px-2' style={{ maxWidth: '600px' }}>Manage your entire community in a single system</h1>
         <p className='text-center text-grey fw-semibold'>Who is Nextcent suitable for?</p>
       </div>
 
@@ -52,12 +52,12 @@ const Clients = () => {
 
 
 
-      <div className='d-flex flex-column flex-md-row container py-5 '>
+      <div className='d-flex flex-column flex-md-row container pb-5 '>
         <div className=' flex-grow-1 flex-shrink-0'><img style={{ width: '100%' }} src={clientImage} alt="HERO Image" /></div>
 
         <div className=' flex-grow-1 w-full gap-4 d-flex flex-column justify-content-center  align-items-center align-items-md-start'>
-          <h1 className=' text-dark-grey text-center text-md-start' style={{ fontSize: '' }}>The unseen of spending three years at Pixelgrade</h1>
-          <p className=' text-grey ' style={{ fontSize: '16px' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+          <h1 className=' text-dark-grey text-center text-md-start ' >The unseen of spending three years at Pixelgrade</h1>
+          <p className=' text-grey text-center text-md-start px-2 px-md-0  ' style={{ fontSize: '16px' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
           <button className='btn background-green text-white px-4 py-2 ' style={{ width: 'fit-content' }} >Learn More</button>
         </div>
       </div>
