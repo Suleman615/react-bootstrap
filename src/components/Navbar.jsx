@@ -6,7 +6,7 @@ import brand from '../assets/Nexcent.svg'
 
 function Navbar() {
     return (
-            <nav className=" navbar navbar-expand-md background-light    position-fixed w-100 shadow-sm" >
+            <nav className=" navbar navbar-expand-md background-light   z-3 position-fixed w-100 shadow-sm" >
                 <div className="container-fluid " >
                     <a className="navbar-brand  d-block d-md-none" href="#"><img src={logo} alt='LOGO' /> <img src={brand} alt='BRAND' /></a>
 
