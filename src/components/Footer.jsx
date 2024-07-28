@@ -38,9 +38,9 @@ const Footer = () => {
                     </div>
 
 
-                    <div className='d-flex flex-column flex-md-row justify-content-center gap-5 gap-sm-2 gap-lg-5 flex-grow-1 ms-4  ms-md-3 ms-lg-5 '>
+                    <div className='d-flex flex-column flex-md-row  justify-content-center gap-5 gap-sm-2 gap-lg-5 flex-grow-1 ms-4  ms-md-3 ms-lg-5 '>
                         <div className='mx-0  mx-md-5 '>
-                            <ul className='text-light  list-unstyled'>
+                            <ul className='text-light d-flex flex-column gap-1  list-unstyled'>
                                 <li className='fw-semibold fs-5 mb-4 text-white'>Company</li>
                                 <li>About us</li>
                                 <li>Blog</li>
@@ -50,7 +50,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className='me-5  ms-md-0'>
-                            <ul className='text-light  list-unstyled'>
+                            <ul className='text-light d-flex flex-column gap-1 list-unstyled'>
                                 <li className='fw-semibold mb-4 fs-5 text-white'>Support</li>
                                 <li>Help center</li>
                                 <li>Terms of service</li>
