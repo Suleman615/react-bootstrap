@@ -25,6 +25,11 @@ body{
   color:  #4D4D4D;
   
 }
+::placeholder ,.text-silver{
+  color:  #F5F7FA;
+  
+}
+
 .text-grey{
   color:  #717171;
 }

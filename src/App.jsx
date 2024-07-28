@@ -7,6 +7,7 @@ import Achievements from './components/Achievements'
 import Products from './components/Products'
 import Customers from './components/Customers'
 import Blog from './components/Blog'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Products/>
       <Customers/>
       <Blog/>
+      <Footer/>
     </>
   )
 }

@@ -58,7 +58,7 @@ const Clients = () => {
         <div className=' flex-grow-1 w-full gap-4 d-flex flex-column justify-content-center  align-items-center align-items-md-start'>
           <h1 className=' text-dark-grey text-center text-md-start ' >The unseen of spending three years at Pixelgrade</h1>
           <p className=' text-grey text-center text-md-start px-2 px-md-0  ' style={{ fontSize: '16px' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
-          <button className='btn background-green text-white px-4 py-2 ' style={{ width: 'fit-content' }} >Learn More</button>
+          <button className='rounded border-0 background-green text-white px-4 py-2 ' style={{ width: 'fit-content' }} >Learn More</button>
         </div>
       </div>
     </>

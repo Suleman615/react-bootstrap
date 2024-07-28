@@ -6,7 +6,7 @@ import brand from '../assets/Nexcent.svg'
 
 function Navbar() {
     return (
-            <nav className=" navbar navbar-expand-md background-light" >
+            <nav className=" navbar navbar-expand-md background-light    position-fixed w-100 shadow-sm" >
                 <div className="container-fluid " >
                     <a className="navbar-brand  d-block d-md-none" href="#"><img src={logo} alt='LOGO' /> <img src={brand} alt='BRAND' /></a>
 
@@ -41,8 +41,8 @@ function Navbar() {
                         </ul>
 
                         <div className="d-flex gap-2 gap-lg-4" >
-                            <button className="btn text-green" type="submit">Login</button>
-                            <button className="btn  background-green text-white" type="submit">Sign up</button>
+                            <button className="border-0 background-light  text-green" type="submit">Login</button>
+                            <button className="border-0 rounded  background-green py-2 text-white px-4" type="submit">Sign up</button>
 
                         </div>
                     </div>
