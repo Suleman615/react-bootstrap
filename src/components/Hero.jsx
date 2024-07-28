@@ -1,5 +1,7 @@
 import React from 'react'
-import hero from '../assets/hero.svg'
+import hero_1 from '../assets/hero.svg'
+import hero_2 from '../assets/mobile-login-panal.svg'
+import hero_3 from '../assets/client.svg'
 
 const Hero = () => {
     return (
@@ -22,7 +24,7 @@ const Hero = () => {
                                 <p className='fw-semibold text-grey' style={{ fontSize: '16px' }}>Where to grow your business as a photographer: site or social media?</p>
                                 <button className='rounded border-0 background-green text-white px-4 py-2' style={{ width: 'fit-content' }} >Register</button>
                             </div>
-                            <div className=' flex-grow-1 '><img style={{ width: '100%' }} src={hero} alt="HERO Image" /></div>
+                            <div className=' flex-grow-1 '><img style={{ width: '100%' }} src={hero_1} alt="HERO Image" /></div>
                         </div>
                     </div>
                     <div className="carousel-item">
@@ -32,7 +34,7 @@ const Hero = () => {
                                 <p className='fw-semibold text-grey' style={{ fontSize: '16px' }}>Where to grow your business as a photographer: site or social media?</p>
                                 <button className='rounded border-0 background-green text-white px-4 py-2' style={{ width: 'fit-content' }} >Register</button>
                             </div>
-                            <div className=' flex-grow-1 '><img style={{ width: '100%' }} src={hero} alt="HERO Image" /></div>
+                            <div className=' flex-grow-1 '><img style={{ width: '100%' }} src={hero_2} alt="HERO Image" /></div>
                         </div>
                     </div>
                     <div className="carousel-item">
@@ -42,7 +44,7 @@ const Hero = () => {
                                 <p className='fw-semibold text-grey' style={{ fontSize: '16px' }}>Where to grow your business as a photographer: site or social media?</p>
                                 <button className='rounded border-0 background-green text-white px-4 py-2' style={{ width: 'fit-content' }} >Register</button>
                             </div>
-                            <div className=' flex-grow-1 '><img style={{ width: '100%' }} src={hero} alt="HERO Image" /></div>
+                            <div className=' flex-grow-1 '><img style={{ width: '100%' }} src={hero_3} alt="HERO Image" /></div>
                         </div>
                     </div>
                 </div>
