@@ -1,4 +1,3 @@
-import { useState } from 'react'
 
 import './App.css'
 import Navbar from './components/Navbar'
@@ -7,6 +6,7 @@ import Clients from './components/Clients'
 import Achievements from './components/Achievements'
 import Products from './components/Products'
 import Customers from './components/Customers'
+import Blog from './components/Blog'
 
 function App() {
 
@@ -18,6 +18,7 @@ function App() {
       <Achievements/>
       <Products/>
       <Customers/>
+      <Blog/>
     </>
   )
 }
