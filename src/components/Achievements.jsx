@@ -5,7 +5,7 @@ import payments from '../assets/payments.svg'
 
 const Achievements = () => {
     return (
-        <div className='background-light '>
+        <div id='features' className='background-light '>
 
             <div className='d-flex flex-column flex-md-row container py-5 '>
                 <div className=' flex-grow-1 flex-shrink-0 w-full gap-3 d-flex flex-column justify-content-center '>

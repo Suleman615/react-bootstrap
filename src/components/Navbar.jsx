@@ -23,19 +23,19 @@ function Navbar() {
                                 <a className="nav-link " aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link " href="#">Service</a>
+                                <a className="nav-link " href="#services">Service</a>
                             </li>
                             <li className="nav-item ">
-                                <a className="nav-link" href="#">Feature</a>
+                                <a className="nav-link" href="#features">Feature</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link"  href="#">Product</a>
+                                <a className="nav-link"  href="#product">Product</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Testimonial</a>
+                                <a className="nav-link" href="#testimonials">Testimonial</a>
                             </li>
                             <li className="nav-item ">
-                                <a className="nav-link" href="#">FAQ</a>
+                                <a className="nav-link" href="#faq">FAQ</a>
                             </li>
                            
                         </ul>

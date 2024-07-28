@@ -2,7 +2,7 @@ import login_panal from '../assets/mobile-login-panal.svg'
 const Products = () => {
     return (
 
-        <div className='d-flex flex-column flex-md-row container py-5 '>
+        <div id='faq' className='d-flex flex-column flex-md-row container py-5 '>
             <div className=' flex-grow-1 flex-shrink-0'><img style={{ width: '100%' }} src={login_panal} alt="HERO Image" /></div>
 
             <div className=' flex-grow-1 w-full gap-4 d-flex flex-column justify-content-center  align-items-center align-items-md-start mt-5'>

@@ -21,7 +21,7 @@ const Blog = () => {
         }
     ]
     return (
-        <div className='my-5'>
+        <div id='testimonials' className='my-5'>
                 <h1 className=' text-dark-grey text-center ' >Caring is the new marketing</h1>
                 <p className='fw-semibold  text-grey text-center paragraph-center px-2 px-md-0 mx-auto' style={{ fontSize: '16px' }}>The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
         

@@ -19,7 +19,7 @@ const Clients = () => {
       <LogoSlider />
 
 
-      <div className='w-full py-5 '>
+      <div id='services' className='w-full py-5 '>
         <h1 className='text-center mx-auto text-dark-grey px-2' style={{ maxWidth: '600px' }}>Manage your entire community in a single system</h1>
         <p className='text-center text-grey fw-semibold'>Who is Nextcent suitable for?</p>
       </div>
