@@ -96,6 +96,7 @@ const ContactForm = () => {
                 <div className=' p-2 rounded-2 d-flex flex-column  gap-2 bg-opacity-25  '>
                     <label className='text-grey fw-semibold' htmlFor="subject">Subject</label>
                     <input
+                    required
                         id="subject"
                         name="subject"
                         type="text"
@@ -135,39 +136,6 @@ const ContactForm = () => {
 
 
 
-        // <form onSubmit={formik.handleSubmit}>
-        //   <label htmlFor="fullName">First Name</label>
-        //   <input
-        //     id="fullName"
-        //     name="fullName"
-        //     type="text"
-        //     onChange={formik.handleChange}
-        //     value={formik.values.fullName}
-        //   />
-        //   {formik.errors.fullName ? <div>{formik.errors.fullName}</div> : null}
-
-        //   <label htmlFor="subject">Last Name</label>
-        //   <input
-        //     id="subject"
-        //     name="subject"
-        //     type="text"
-        //     onChange={formik.handleChange}
-        //     value={formik.values.subject}
-        //   />
-        //   {formik.errors.subject ? <div>{formik.errors.subject}</div> : null}
-
-        //   <label htmlFor="email">Email Address</label>
-        //   <input
-        //     id="email"
-        //     name="email"
-        //     type="email"
-        //     onChange={formik.handleChange}
-        //     value={formik.values.email}
-        //   />
-        //   {formik.errors.email ? <div>{formik.errors.email}</div> : null}
-
-        //   <button type="submit">Submit</button>
-        // </form>
     );
 };
 

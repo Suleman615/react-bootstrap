@@ -96,10 +96,9 @@ input:focus {
 }
 
 .error-message{
-  /* border: 2px solid red ; */
   border-radius: 5px;
   padding: 2px 5px;
-  color: red;
+  color: rgb(160, 3, 3);
   font-weight: 500;
 }
 ::placeholder,
