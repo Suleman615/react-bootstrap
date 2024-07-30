@@ -3,12 +3,13 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 import logo from '../assets/Icon.svg'
 import brand from '../assets/Nexcent.svg'
+import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
             <nav className=" navbar navbar-expand-md background-light   z-3 position-fixed w-100 shadow-sm" >
                 <div className="container-fluid " >
-                    <a className="navbar-brand  d-block d-md-none" href="#"><img src={logo} alt='LOGO' /> <img src={brand} alt='BRAND' /></a>
+                    <Link to='/' className="navbar-brand  d-block d-md-none" ><img src={logo} alt='LOGO' /> <img src={brand} alt='BRAND' /></Link>
 
 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,26 +17,26 @@ function Navbar() {
                     </button>
 
                     <div className="collapse navbar-collapse justify-content-around align-content-center " id="navbarSupportedContent">
-                        <a className="navbar-brand d-none  d-md-block" href="#"><img src={logo} alt='LOGO' /> <img src={brand} alt='BRAND' /></a>
+                        <Link to='/' className="navbar-brand d-none  d-md-block" ><img src={logo} alt='LOGO' /> <img src={brand} alt='BRAND' /></Link>
 
                         <ul className="navbar-nav gap-0 gap-lg-4 mb-2 mb-md-0 fw-medium ">
                             <li className="nav-item">
-                                <a className="nav-link " aria-current="page" href="#">Home</a>
+                                <Link to='/' className="nav-link " aria-current="page" >Home</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link " href="#services">Service</a>
+                                <Link to='/' className="nav-link " href="#services">Service</Link>
                             </li>
                             <li className="nav-item ">
-                                <a className="nav-link" href="#features">Feature</a>
+                                <Link to='/about' className="nav-link" href="#features">About</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link"  href="#product">Product</a>
+                                <Link to='/' className="nav-link"  href="#product">Product</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#testimonials">Testimonial</a>
+                                <Link to='/contact' className="nav-link" href="#testimonials">Contact</Link>
                             </li>
                             <li className="nav-item ">
-                                <a className="nav-link" href="#faq">FAQ</a>
+                                <Link to='/faq' className="nav-link" href="#faq">FAQ</Link>
                             </li>
                            
                         </ul>

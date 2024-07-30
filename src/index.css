@@ -14,10 +14,13 @@ body {
 .background-green {
   background-color: #4CAF4F;
 }
-
+.background-grey{
+background-color: #717171;
+}
 .background-black {
   background-color: #263238;
 }
+
 
 .text-green {
   color: #4CAF4F;
@@ -69,6 +72,23 @@ body {
   background-color: #4CAF4F !important;
 }
 
+.map-styles{
+  width: 90vw !important;
+  height: 500px !important;
+  margin-top: 50px   !important;
+  border-radius: 30px !important;
+  margin-bottom: -300px !important;
+}
+
+
+input:focus {
+  outline-style: solid;
+  outline-color: #4CAF4F;
+}
+
+.form-field::placeholder{
+  color: #717171 !important;
+}
 ::placeholder,
 .text-silver {
   color: #F5F7FA;

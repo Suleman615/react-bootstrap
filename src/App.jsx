@@ -1,26 +1,19 @@
-
-import './App.css'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Clients from './components/Clients'
-import Achievements from './components/Achievements'
-import Products from './components/Products'
-import Customers from './components/Customers'
-import Blog from './components/Blog'
-import Footer from './components/Footer'
-
-function App() {
-
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import About from "./pages/About"
+import Contact from "./pages/Contact"
+import FAQ from "./pages/FAQ"
+import Home from "./pages/Home"
+const App = () => {
   return (
     <>
-      <Navbar/>
-      <Hero/>
-      <Clients/>
-      <Achievements/>
-      <Products/>
-      <Customers/>
-      <Blog/>
-      <Footer/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="About" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="/faq" element={<FAQ />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
