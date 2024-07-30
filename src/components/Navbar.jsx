@@ -23,15 +23,15 @@ function Navbar() {
                             <li className="nav-item">
                                 <Link to='/' className="nav-link " aria-current="page" >Home</Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link to='/' className="nav-link " href="#services">Service</Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item ">
                                 <Link to='/about' className="nav-link" href="#features">About</Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link to='/' className="nav-link"  href="#product">Product</Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <Link to='/contact' className="nav-link" href="#testimonials">Contact</Link>
                             </li>

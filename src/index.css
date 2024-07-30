@@ -89,6 +89,19 @@ input:focus {
 .form-field::placeholder{
   color: #717171 !important;
 }
+
+.accordion-button:not(.collapsed){
+  background-color: #F5F7FA;
+  border: 0 !important;
+}
+
+.error-message{
+  /* border: 2px solid red ; */
+  border-radius: 5px;
+  padding: 2px 5px;
+  color: red;
+  font-weight: 500;
+}
 ::placeholder,
 .text-silver {
   color: #F5F7FA;

@@ -6,6 +6,7 @@ import { FiPhoneCall, FiMail } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdOutlineLocationCity } from "react-icons/md";
 import { CiGlobe } from "react-icons/ci";
+import ContactForm from '../components/ContactForm';
 
 
 
@@ -28,9 +29,9 @@ const Contact = () => {
             </div>
 
             <div className='background-light '>
-                <div className='d-flex flex-column flex-md-row gap-5 container'>
+                <div className='d-flex flex-column flex-md-row gap-4 container'>
                     <div className='flex-grow-1 flex-shrink-0 me-0 me-md-5 pe-0   pt-5'>
-                        <form action="" className='  my-5 border border-2 rounded-3 p-3'>
+                        {/* <form action="" className='  my-5 border border-2 rounded-3 p-3'>
                             <h1 className='text-center text-green my-3 ' style={{ fontSize: '40px' }}>Send a Message</h1>
                             <section className='d-flex flex-column ' >
                                 <div className=' p-2 rounded-2 d-flex flex-column  gap-2 bg-opacity-25  '>
@@ -60,9 +61,13 @@ const Contact = () => {
                                 </div>
                             </section>
                             <button className='background-green border-0 px-3 py-2 rounded-2 my-4 ms-2 text-white fw-semibold'>Submit</button>
-                        </form>
+                        </form> */}
+
+
+                        <ContactForm />
+
                     </div>
-                    <div className='me-0 me-md-5 pe-0 pe-md-5 my-5 py-5 d-flex flex-column justify-content-center gap-4'>
+                    <div className='me-0 me-md-5 pe-0 pe-md-5 my-0  my-md-5 py-0 py-md-5 d-flex flex-column justify-content-center gap-4'>
 
                         <div className='d-flex gap-4 align-items-center'>
                             <FiPhoneCall size={34} color='#4CAF4F' /><h1 className='text-dark-grey fs-5 '>+92 334 7865987</h1>
@@ -74,12 +79,12 @@ const Contact = () => {
                             <FiMail size={34} color='#4CAF4F' /><h1 className='text-dark-grey fs-5 '>nexcent.info@gmail.com</h1>
                         </div>
                         <div className='d-flex gap-4 align-items-center'>
-                            <MdOutlineLocationCity size={34} color='#4CAF4F' /><h1 className='text-dark-grey fs-5  ' style={{maxWidth:'200px'}}>Al-Mustafa Towers, F10 , Islamabad</h1>
+                            <MdOutlineLocationCity size={34} color='#4CAF4F' /><h1 className='text-dark-grey fs-5  ' style={{ maxWidth: '200px' }}>Al-Mustafa Towers, F10 , Islamabad</h1>
                         </div>
                         <div className='d-flex gap-4 align-items-center'>
                             <CiGlobe size={34} color='#4CAF4F' /><h1 className='text-dark-grey fs-5 '>nexcent.dev.io</h1>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
