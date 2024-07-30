@@ -96,7 +96,6 @@ const ContactForm = () => {
                 <div className=' p-2 rounded-2 d-flex flex-column  gap-2 bg-opacity-25  '>
                     <label className='text-grey fw-semibold' htmlFor="subject">Subject</label>
                     <input
-                    required
                         id="subject"
                         name="subject"
                         type="text"
