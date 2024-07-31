@@ -5,7 +5,7 @@ import logo from '../assets/Icon.svg'
 import brand from '../assets/Nexcent.svg'
 import { Link } from "react-router-dom";
 
-function Navbar() {
+function Navbar({login , signUp}) {
     return (
             <nav className=" navbar navbar-expand-md background-light   z-3 position-fixed w-100 shadow-sm" >
                 <div className="container-fluid " >
@@ -42,8 +42,8 @@ function Navbar() {
                         </ul>
 
                         <div className="d-flex gap-2 gap-lg-4" >
-                            <button className="border-0 background-light  text-green" type="submit">Login</button>
-                            <button className="border-0 rounded  background-green py-2 text-white px-4" type="submit">Sign up</button>
+                           { !login && <Link to="/login" className="border rounded background-light  text-green py-2 px-4 text-decoration-none " >Login</Link>}
+                           { !signUp && <Link to="/signup" className="border-0 rounded  background-green py-2 text-white px-4 text-decoration-none" >Sign up</Link>}
 
                         </div>
                     </div>

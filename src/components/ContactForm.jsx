@@ -47,7 +47,7 @@ const ContactForm = () => {
         },
         validate,
         onSubmit: values => {
-            console.log(values, null, 2);
+            console.log(values);
         },
     });
     return (

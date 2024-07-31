@@ -83,6 +83,7 @@ background-color: #717171;
 
 input:focus {
   outline-style: solid;
+  outline-width: 1px;
   outline-color: #4CAF4F;
 }
 
