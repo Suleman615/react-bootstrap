@@ -26,6 +26,11 @@ const validate = values => {
     return errors;
 };
 
+
+const handleReset=()=>{
+
+}
+
 const LoginForm = () => {
 
     const formik = useFormik({
@@ -41,13 +46,13 @@ const LoginForm = () => {
     });
     return (
 
-        <form onSubmit={formik.handleSubmit} className='  mt-2 border border-2 background-light rounded-3 p-3'>
+        <form onSubmit={formik.handleSubmit} className='   border border-2 background-light rounded-3 p-3'>
             <h1 className='text-center text-green my-3 ' style={{ fontSize: '40px' }}>Log In</h1>
            
 
             <section className='d-flex flex-column ' >
                 <div className=' p-2 rounded-2 d-flex flex-column  gap-2 bg-opacity-25  '>
-                    <label className='text-grey fw-semibold' htmlFor="email">Email</label>
+                    <label className='text-grey fw-semibold ' htmlFor="email">Email</label>
                     <input
 
                         id="email"
@@ -105,7 +110,8 @@ const LoginForm = () => {
 
             </section>
 
-            <button type='submit' className='background-green border-0 px-3 py-2 rounded-2 my-4 ms-2 text-white fw-semibold'>Log In</button>
+            <button type='submit' className='background-green border-0 px-3 py-2 w-100 rounded-2 my-4 ms-2 text-white fw-semibold'>Log In</button>
+            <p onClick={handleReset} className='text-green  fw-semibold text-decoration-underline mx-2 my-0 ' style={{cursor:'pointer'}} > Forgot Password</p>
         </form>
 
 

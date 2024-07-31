@@ -134,7 +134,7 @@ const SignUpForm = () => {
             </section>
 
 
-            <button type='submit' className='background-green border-0 px-3 py-2 rounded-2 my-4 ms-2 text-white fw-semibold'>Sign Up</button>
+            <button type='submit' className='background-green border-0 px-3 py-2 rounded-2 my-4 ms-2 text-white fw-semibold w-100'>Sign Up</button>
         </form>
 
 
