@@ -14,13 +14,13 @@ const Achievements = () => {
                 </div>
                 <div className=' flex-grow-1 flex-shrink-0 my-3 '>
                     <div className='d-flex flex-wrap gap-2 align-items-center align-items-md-start  justify-content-around '>
-                        <div className='d-flex align-items-center h-fit gap-2 my-2'><img className='mb-3' src={member} alt="member icon"  /> <div> <h2 className='fw-semibold text-dark-grey m-0'>2,245,341</h2> <p className='text-grey'>members</p></div></div>
-                        <div className='d-flex align-items-center h-fit gap-2 my-2'><img className='mb-3' src={club} alt="club icon"  /> <div> <h2 className='fw-semibold text-dark-grey m-0'>2,245,341</h2> <p className='text-grey'>members</p></div></div>
+                        <div className='d-flex align-items-center h-fit gap-2 my-2'><img className='mb-3' src={member} alt="member icon"  /> <div> <h2 className='fw-semibold text-dark-grey m-0'>2,245,341</h2> <p className='text-grey'>Members</p></div></div>
+                        <div className='d-flex align-items-center h-fit gap-2 my-2'><img className='mb-3' src={club} alt="club icon"  /> <div> <h2 className='fw-semibold text-dark-grey m-0'>2,245,341</h2> <p className='text-grey'>Clubs</p></div></div>
 
                     </div>
                     <div className='d-flex align-items-center flex-wrap gap-2 justify-content-around '>
-                        <div className='d-flex align-items-center h-fit gap-2 my-2'><img className='mb-3' src={event_booking} alt="booking icon"  /> <div> <h2 className='fw-semibold text-dark-grey m-0'>2,245,341</h2> <p className='text-grey'>members</p></div></div>
-                        <div className='d-flex align-items-center h-fit gap-2 my-2'><img className='mb-3' src={payments} alt="payment icon"  /> <div> <h2 className='fw-semibold text-dark-grey m-0'>2,245,341</h2> <p className='text-grey'>members</p></div></div>
+                        <div className='d-flex align-items-center h-fit gap-2 my-2'><img className='mb-3' src={event_booking} alt="booking icon"  /> <div> <h2 className='fw-semibold text-dark-grey m-0'>2,245,341</h2> <p className='text-grey'>Event Bookings</p></div></div>
+                        <div className='d-flex align-items-center h-fit gap-2 my-2'><img className='mb-3' src={payments} alt="payment icon"  /> <div> <h2 className='fw-semibold text-dark-grey m-0'>2,245,341</h2> <p className='text-grey'>Payments</p></div></div>
 
                     </div>
                 </div>
